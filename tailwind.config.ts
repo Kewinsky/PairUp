@@ -9,7 +9,15 @@ export default {
     "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        finn: "#643a71ff",
+        amethyst: "#8b5fbfff",
+        frenchMauve: "#d183c9ff",
+        rosePompadour: "#e3879eff",
+        pink: "#fec0ceff",
+      },
+    },
   },
   darkMode: "class",
   plugins: [nextui()],
