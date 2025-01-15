@@ -2,9 +2,10 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Providers from "@/components/Providers";
 import TopNav from "@/components/navbar/TopNav";
+import { APP_NAME } from "../../config";
 
 export const metadata: Metadata = {
-  title: "PairUp",
+  title: APP_NAME,
 };
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => (
